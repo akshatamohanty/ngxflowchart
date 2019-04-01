@@ -1,27 +1,27 @@
-# MyApp
+## ngFlow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+An angular module to create control flow and data flow diagrams
 
-## Development server
+## Difference between control flow and data flow
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Usage
 
-## Code scaffolding
+## Roadmap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[] Update to angular 7
+[] Add a library using the `angular-cli`
+[] Use the library in a demo 
+[] Add a simple node and wire and render it
+[] Render a graph using a data structure
+[] Add ability to drag nodes
+[] Add ability to connect nodes
+[] Add ability to transfer data between nodes
+[] Add callback to process content flowing through node
+[] Add multiple inputs to node
+ 
+## Run this app
 
-## Build
+`ng serve`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
