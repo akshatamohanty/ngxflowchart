@@ -7,8 +7,8 @@
   <p>
     <ul>
       <li>install the module using `npm install ngxflowchart`</li>
-      <li>import `IFlowchart` interface from the module. The data passed to the component follow the interface</li>
-      <li>use the `flowchart` tag in the template, passing `data` attribute</li>
+      <li>import `IFlowchart` interface from the module - the data passed to the `flowchart` component should be an `IFlowchart`</li>
+      <li>use the `flowchart` tag in the template, pass `data` attribute</li>
     </ul>
 
   <h4>demo</h4>
@@ -21,6 +21,7 @@
       <li>better styling</li>
     </ul>
   </small>
+
   <div class='content__panel'>
       <flowchart 
           [data]="flowchart" 
