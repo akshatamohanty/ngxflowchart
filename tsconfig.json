@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "flow": [
-        "dist/flow"
+      "ngxflowchart": [
+        "dist/ngxflowchart"
       ],
-      "flow/*": [
-        "dist/flow/*"
+      "ngxflowchart/*": [
+        "dist/ngxflowchart/*"
       ]
     }
   }

@@ -135,33 +135,33 @@
         }
       }
     },
-    "flow": {
-      "root": "projects/flow",
-      "sourceRoot": "projects/flow/src",
+    "ngxflowchart": {
+      "root": "projects/ngxflowchart",
+      "sourceRoot": "projects/ngxflowchart/src",
       "projectType": "library",
       "prefix": "ng",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/flow/tsconfig.lib.json",
-            "project": "projects/flow/ng-package.json"
+            "tsConfig": "projects/ngxflowchart/tsconfig.lib.json",
+            "project": "projects/ngxflowchart/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/flow/src/test.ts",
-            "tsConfig": "projects/flow/tsconfig.spec.json",
-            "karmaConfig": "projects/flow/karma.conf.js"
+            "main": "projects/ngxflowchart/src/test.ts",
+            "tsConfig": "projects/ngxflowchart/tsconfig.spec.json",
+            "karmaConfig": "projects/ngxflowchart/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/flow/tsconfig.lib.json",
-              "projects/flow/tsconfig.spec.json"
+              "projects/ngxflowchart/tsconfig.lib.json",
+              "projects/ngxflowchart/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

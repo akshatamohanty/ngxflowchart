@@ -6,6 +6,9 @@ An angular module to create control flow and data flow diagrams
 
 ## Usage
 
+## SVG vs HTML5 elements to render the graph
+HTML5 seems easier to manipulate and implement
+
 ## Roadmap
 
 [X] Update to angular 7

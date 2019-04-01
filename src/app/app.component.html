@@ -7,5 +7,7 @@
   <p>Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.</p>
 
   <h4>demo</h4>
-  <ng-flow class='flowchart'></ng-flow>
+  <div class='content__panel'>
+    <flowchart [data]="flowchart" (select)='selectNode($event)'></flowchart>
+  </div>
 </div>
