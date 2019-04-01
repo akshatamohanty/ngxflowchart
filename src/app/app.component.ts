@@ -7,7 +7,7 @@ import { IFlowchart, FlowchartUtils } from 'ngxflowchart'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  private flowchart: IFlowchart; 
+  flowchart: IFlowchart; 
 
   constructor(){
       this.flowchart = FlowchartUtils.newflowchart()
