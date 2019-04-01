@@ -19,7 +19,8 @@ Awesome resource: https://blog.angularindepth.com/creating-a-library-in-angular-
 - Import the library in `app.module.ts` ... always import the entire module, not individual files
 ( if the module is not found, make sure you've built the module first. restart the server after building)
 
-[] Add a simple node and wire and render it
+[X] Add a simple node and wire and render it
+[] Add position data to node and wire
 [] Render a graph using a data structure
 [] Add ability to drag nodes
 [] Add ability to connect nodes
