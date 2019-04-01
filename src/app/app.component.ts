@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IFlowchart } from 'ngxflowchart'
+import { IFlowchart, FlowchartUtils } from 'ngxflowchart'
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ export class AppComponent {
   private flowchart: IFlowchart; 
 
   constructor(){
-      this.flowchart = [];
+      this.flowchart = FlowchartUtils.newflowchart()
   }
 
   selectNode(node_index: number): void{  

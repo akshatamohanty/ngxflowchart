@@ -1,66 +1,66 @@
-// $color-main: #2D4885;
-// $color-accent: #50ABB9;
-// $color-muted: #88D4DD;
-// $color-text-accent: #DC772F;
+$color-main: #2D4885;
+$color-accent: #50ABB9;
+$color-muted: #88D4DD;
+$color-text-accent: #DC772F;
 
-// $node-width: 100px;
-// $default-padding: 10px;
+$node-width: 100px;
+$default-padding: 10px;
 
-// .node{
-//     position: absolute;
+.node{
+    position: absolute;
     
-//     max-width: $node-width;
-//     margin: $default-padding;
-//     width: auto;
+    max-width: $node-width;
+    margin: $default-padding;
+    width: auto;
 
-//     border: 3px solid white;
-//     border-radius: 5px;
-
-
-//     &.node--selected{
-//         border-color: blue;
-//     }
-
-//     .node__name{
-//         background-color: white;
-//         color: $color-text-accent;
-//         text-align: center;
-
-//         overflow: hidden;
-
-//         input{
-//             font-size: 10px;
-//             text-align: center;
-//             width: 95%;
-//         }
+    border: 3px solid white;
+    border-radius: 5px;
 
 
-//     }
+    &.node--selected{
+        border-color: blue;
+    }
 
-//     .node__body{
+    .node__name{
+        background-color: white;
+        color: $color-text-accent;
+        text-align: center;
 
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
+        overflow: hidden;
 
-//         .container{
-//             display: flex;
-//             flex-direction: column;
+        input{
+            font-size: 10px;
+            text-align: center;
+            width: 95%;
+        }
 
-//         }
 
-//         .container--input{
-//             @extend .container;
-//         }
+    }
 
-//         .container--output{
-//             @extend .container;
-//         }
+    .node__body{
 
-//         .container--info{
-//             @extend .container;
-//             padding: 5px;
-//         }
-//     }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
-// }
+        .container{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .container--input{
+            @extend .container;
+        }
+
+        .container--output{
+            @extend .container;
+        }
+
+        .container--info{
+            @extend .container;
+            padding: 5px;
+        }
+    }
+
+}

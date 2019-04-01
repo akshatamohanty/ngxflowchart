@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FlowModule } from 'flow';
+import { NgxFlowchartModule } from 'ngxflowchart';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { FlowModule } from 'flow';
   imports: [
     BrowserModule,
     AppRoutingModule, 
-    FlowModule
+    NgxFlowchartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

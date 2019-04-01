@@ -1,13 +1,30 @@
 <div class='container'>
-  <h1>ngFlow</h1>
+  <h1>ngxFlowchart</h1>
   <h2>angular module for flow diagrams</h2>
   <hr />
 
-  <h4>about this project</h4>
-  <p>Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.Tempor deserunt dolor officia adipisicing adipisicing labore occaecat.</p>
+  <h4>how to use</h4>
+  <p>
+    <ul>
+      <li>install the module using `npm install ngxflowchart`</li>
+      <li>import `IFlowchart` interface from the module. The data passed to the component follow the interface</li>
+      <li>use the `flowchart` tag in the template, passing `data` attribute</li>
+    </ul>
 
   <h4>demo</h4>
+  <p>click on add node button to add a node. update node names, port names and drag the nodes around, as required</p>
+  
+  <small>
+    fixes in progress:
+    <ul>
+      <li>edge rendering and connections</li>
+      <li>better styling</li>
+    </ul>
+  </small>
   <div class='content__panel'>
-    <flowchart [data]="flowchart" (select)='selectNode($event)'></flowchart>
+      <flowchart 
+          [data]="flowchart" 
+          (select)='selectNode($event)'>
+      </flowchart>
   </div>
 </div>

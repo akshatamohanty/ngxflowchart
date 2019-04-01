@@ -1,10 +1,14 @@
-## ngFlow
+## ngFlow | WIP
 
 An angular module to create control flow and data flow diagrams
 
 ## Difference between control flow and data flow
+<WIP>
 
 ## Usage
+
+For the demo: `ng serve` (runs on `localhost:4200`)
+To build `ngxflowchart`: `ng build ngxflowchart`
 
 ## SVG vs HTML5 elements to render the graph
 HTML5 seems easier to manipulate and implement
